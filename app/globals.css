@@ -7,3 +7,36 @@ body {
   background-color: #222;
   color: #f2f2f2;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  border-bottom: 2px solid #2c2c2c;
+  padding: 20px 50px;
+}
+
+header a {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #cb2222;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 50px;
+}
+.post {
+  width: 500px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #598191;
+  color: #222222;
+}
